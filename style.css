@@ -291,20 +291,20 @@ nav {
 }
 
 .card1 {
-  height: 301px;
-  /* width: 357px; */
+  max-width: 100%;
   border-radius: 16px;
-  position: absolute;
+  display: block;
 }
 
 .food_cards {
-  margin-left: 100px;
   position: relative;
+}
 
+.single-card{
+  position: relative;
 }
 
 .imagecard1 {
-  height: 83px;
   width: 140px;
   background-color: #f1bb28;
   font-size: 50px;
@@ -315,10 +315,8 @@ nav {
   justify-content: center;
   border-top-right-radius: 16px;
   border-bottom-left-radius: 16px;
-  position: relative;
-  top: 220px;
-
-
+  position: absolute;
+  bottom: 0;
 }
 
 .pr1 {
@@ -343,7 +341,7 @@ nav {
   color: rgba(66, 66, 66, 1);
   /* position: relative; */
   font-weight: 700;
-  margin-top: 250px;
+  margin-top: 32px;
   font: 22px;
   position: static;
 
@@ -364,11 +362,11 @@ nav {
 
 .fc_parent {
   display: flex;
-  gap: 80px;
-  margin-top: 30px;
+  gap: 16px;
+  margin-top: 80px;
   margin-bottom: 90px;
-  /* justify-content: center; */
-  max-width: 100%;
+  justify-content: space-between;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
