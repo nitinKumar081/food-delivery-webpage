@@ -1,87 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Food Delivery Website</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=two_wheeler" />
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_bag" /> -->
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=two_wheeler" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_bag" /> -->
+  </head>
 
-<body>
-  <nav>
-    <div class="header">
-      <div class="logo">
-        <img src="./assets/icons/logo.png" alt />
-        <span>food<span class="yellow-text">wagon</span></span>
-      </div>
-
-      <span class="middle-section">
-        Deliver to:
-        <img src="./assets/icons/location_icon.svg" alt />
-        <span><span class="text-light">Current Location</span> Mohammadpur Bus
-          Stand, Dhaka</span>
-      </span>
-
-      <div class="btn">
-        <div class="input-group">
-          <img src="./assets/icons/search.png" alt />
-          <input type="text" placeholder="Search Food" />
+  <body>
+    <nav>
+      <div class="header">
+        <div class="logo">
+          <img src="./assets/icons/logo.png" alt />
+          <span>food<span class="yellow-text">wagon</span></span>
         </div>
-        <button>
-          <img src="./assets/icons/user.png" alt /><span class="gradient-text">Login</span>
-        </button>
+
+        <span class="middle-section">
+          Deliver to:
+          <img src="./assets/icons/location_icon.svg" alt />
+          <span><span class="text-light">Current Location</span> Mohammadpur Bus
+            Stand, Dhaka</span>
+        </span>
+
+        <div class="btn">
+          <div class="input-group">
+            <img src="./assets/icons/search.png" alt />
+            <input type="text" placeholder="Search Food" />
+          </div>
+          <button>
+            <img src="./assets/icons/user.png" alt /><span
+              class="gradient-text">Login</span>
+          </button>
+        </div>
+        <img src="./assets/icons/hamburger.png" alt class="menu-icon" />
       </div>
-      <img src="./assets/icons/hamburger.png" alt class="menu-icon" />
+    </nav>
+    <div class="hero">
+      <div class="hero-section">
+        <div class="hero-text">
+          <h1 class="ht1">Are you straving ?</h1>
+          <p class="ht2">
+            within a few clicks,find meals that are accessible near you
+          </p>
+          <div class="ordercard">
+            <div class="chips">
+              <div class="tab1">
+                <img src="./assets/icons/motorcycle.svg" alt />
+                <span class="cardtitle active">Delivery</span>
+              </div>
+              <div class="tab1 removebg">
+                <img src="./assets/icons/pickup.svg" alt />
+                <span class="cardtitle">pickup</span>
+              </div>
+            </div>
+            <hr class="line" />
+
+            <div class="email_section">
+              <div class="input_group">
+                <img src="./assets/images/location2.svg" alt
+                  class="location2" />
+                <input type="text" placeholder="Enter Your address"
+                  class="placeholder" />
+              </div>
+              <div class="button">
+                <img src="./assets/icons/searchicon.svg" alt class="search2" />
+                <button class="food">find food </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bowl">
+
+          <img src="./assets/images/bowl.svg" alt />
+        </div>
+      </div>
+
     </div>
-  </nav>
-  <div class="hero">
-    <div class="hero-section">
-      <div class="hero-text">
-        <h1 class="ht1">Are you straving ?</h1>
-        <p class="ht2">
-          within a few clicks,find meals that are accessible near you
-        </p>
-        <div class="ordercard">
-          <div class="chips">
-            <div class="tab1">
-              <img src="./assets/icons/motorcycle.svg" alt />
-              <span class="cardtitle active">Delivery</span>
-            </div>
-            <div class="tab1 removebg">
-              <img src="./assets/icons/pickup.svg" alt />
-              <span class="cardtitle">pickup</span>
-            </div>
-          </div>
-          <hr class="line" />
+    <div class="fc_parent">
+      <div class="food_cards">
+        <img class="card1" src="./assets/images/card1.svg" alt>
+        <div class="imagecard1">
+          <div class="discount1">25</div>
+          <div class="offercard">
+            <div class="pr1">%</div>
+            <div class="off">off</div>
 
-          <div class="email_section">
-            <div class="input_group">
-              <img src="./assets/images/location2.svg" alt class="location2" />
-              <input type="text" placeholder="Enter Your address" class="placeholder" />
-            </div>
-            <div class="button">
-              <img src="./assets/icons/searchicon.svg" alt class="search2" />
-              <button class="food">find food </button>
-            </div>
           </div>
         </div>
+        <div class="frame1">
+          <p class="text1"> Greys Vage</p>
+          <div class="frame77">6 days remaining</div>
+        </div>
+
       </div>
-      <div class="bowl">
+      <div class="food_cards">
+        <img class="card1" src="./assets/images/card2.svg" alt>
+        <div class="imagecard1">
+          <div class="discount1">10</div>
+          <div class="offercard">
+            <div class="pr1">%</div>
+            <div class="off">off</div>
+
+          </div>
+        </div>
+        <div class="frame1">
+          <p class="text1"> Greys Vage</p>
+          <div class="frame77">6 days remaining</div>
+        </div>
+
+      </div>
+      <div class="food_cards">
+        <img class="card1" src="./assets/images/card3.svg" alt>
+        <div class="imagecard1">
+          <div class="discount1">25</div>
+          <div class="offercard">
+            <div class="pr1">%</div>
+            <div class="off">off</div>
+
+          </div>
+        </div>
+        <div class="frame1">
+          <p class="text1"> Greys Vage</p>
+          <div class="frame77">7 days remaining</div>
+        </div>
+
+      </div>
+      <div class="food_cards">
+        <img class="card1" src="./assets/images/card4.svg" alt>
+        <div class="imagecard1">
+          <div class="discount1">20</div>
+          <div class="offercard">
+            <div class="pr1">%</div>
+            <div class="off">off</div>
+
+          </div>
+        </div>
+        <div class="frame1">
+          <p class="text1"> Greys Vage</p>
+          <div class="frame77">8 days remaining</div>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="how-does-it-work">
+      <p class="title">How does it work</p>
+      <div class="icons-parent">
+        <div class="icons-child ic ">
+          <img src="./assets/images/location2.svg" alt class="location3">
+          <p class="icons-title">Select location </p>
+          <p class="icons-paragraph">Choose the location where your food will
+            be delivered.</p>
+
+        </div>
+        <div class="icons-child">
+          <img src="./assets/images/Menu.svg" alt class="location3">
+          <p class="icons-title">Choose order </p>
+          <p class="icons-paragraph">Check over hundreds of menus to pick your favorite food.</p>
+
+        </div>
+        <div class="icons-child">
+          <img src="./assets/images/doller.svg" alt class="location3">
+          <p class="icons-title">Select location </p>
+          <p class="icons-paragraph">It's quick, safe, and simple. Select several methods of payment.</p>
+
+        </div>
+        <div class="icons-child">
+          <img src="./assets/images/Donut.svg" alt class="location3">
+          <p class="icons-title">Select location </p>
+          <p class="icons-paragraph">Food is made and delivered directly to your home.</p>
+
+        </div>
         
-        <img src="./assets/images/bowl.svg" alt=""/>
-      </div>
-    </div>
 
-  </div>
-</body>
+      </div>
+
+    </div>
+    
+
+  </body>
 
 </html>
