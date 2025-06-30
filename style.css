@@ -763,18 +763,32 @@ nav {
   margin-bottom: 50px;
 }
 
-.search_by_food {
+.search_by_food1 {
   height: 571px;
-  width: 1924px;
+  width: 100%;
   background-color: rgba(254, 250, 241, 1);
+  /* display: flex;
+  justify-content: space-between;
+  padding-top: 50px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* max-width: 1400px; */
+}
+
+.search_by_food {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
 }
 
+
 .syb_title {
   font-size: 43px;
   font-weight: 700;
+
 
 }
 
@@ -782,6 +796,7 @@ nav {
   font-size: 18px;
   color: rgba(255, 179, 14, 1);
   padding-top: 30px;
+  font-weight: 700;
 
 }
 
@@ -793,9 +808,206 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  font-weight: 700;
+  font-size: 33px;
+  color: white;
+
 }
-.ab_parent{
+
+.ab_parent {
   display: flex;
   gap: 10px;
+}
+
+.circle_ff {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 100px;
+  gap: 20px;
+
+}
+
+.circle_img {
+  border-radius: 50%;
+  height: 218px;
+  width: 218px;
+}
+
+.c_text {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+/* .c_text{
+  padding-left: 60px;
+  padding-top: 20px;
+} */
+.circle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.benifit {
+  height: 456px;
+  background-color: rgba(254, 239, 208, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benifit .card {
+  height: 246px;
+  width: 1230px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 46px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.benifit_text {
+  font-size: 35px;
+  font-weight: 700;
+  color: rgba(255, 184, 0, 1);
+}
+
+.vertical-line {
+  width: 2px;
+  height: 96px;
+  background-color: rgba(207, 207, 207, 1);
+
+}
+
+.app_download {
+  height: 589x;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.app_down{
+  position: relative;
+}
+.appdown_image{
+  position: absolute;
+  left: 100px;
+  bottom: 0px;
+}
+.appdown_image2{
+  left: 350px;
+
+}
+.install_app{
+  font-size: 68px;
+  font-weight: 700;
+  color: rgba(255, 138, 0, 1);
+}
+
+
+.detail_card {
+  /* background-color: rgba(255, 255, 255, 1); */
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /* box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3) */
+}
+
+
+.best_deal {
+  display: flex;
+  justify-content: center;
+  /* gap: 50px; */
+  
+  
+}
+
+.bd_text {
+  font-size: 43px;
+  font-weight: 700;
+  margin-top: 100px;
+
+
+}
+
+.orange {
+  color: rgba(255, 184, 0, 1);
+}
+
+.deal_button {
+  background-color: rgba(255, 184, 0, 1);
+  /* height: 60px; */
+  /* width: 100%; */
+  font-size: 18px;
+  font-weight: 900;
+  border: none;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 80px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.bd_text2 {
+  padding-bottom: 10px;
+  color: rgba(97, 97, 97, 0.69);
+}
+
+.deal_images {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100%;
+  height: 100%;
+
+
+}
+.google_play{
+  height: 60px;
+  width: 225px;
+  background-color: forestgreen;
+}
+.gp_text2{
+  font-size: 28px;
+  color: rgba(33, 33, 33, 1);
+  font-weight: 700;
+}
+.google_play{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  gap: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.button_parent{
+  display: flex;
+  gap: 10px;
+}
+.install_app_parent{
+  position: absolute;
+  right: 100px;
+  bottom: 200px;
+}
+
+
+.di_parent{
+  flex-grow: 1;
+}
+.bd_child{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  flex-basis: 30%;
 }
