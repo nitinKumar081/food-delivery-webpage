@@ -912,20 +912,23 @@ nav {
 
 
 .detail_card {
-  /* background-color: rgba(255, 255, 255, 1); */
   max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
-
 
 .best_deal {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   border-radius: 20px;
   box-shadow: 0 0 40px 10px rgba(117, 117, 117, 0.4);
+  overflow: hidden;
+}
+
+.best_deal .even {
+  flex-direction: row-reverse;
 }
 
 .bd_text {
@@ -944,10 +947,9 @@ nav {
   font-weight: 900;
   border: none;
   border-radius: 5px;
-  color: rgba(255, 255, 255, 1);
-  margin-top: 100px;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  color: white;
+  margin-top: 40px;
+  padding: 21px 0;
 }
 
 .bd_text2 {
@@ -956,11 +958,12 @@ nav {
 }
 
 .deal_images {
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
   width: 70%;
   height: 100%;
+  object-fit: cover;
 }
+
+
 .google_play{
   height: 60px;
   width: 225px;
@@ -994,10 +997,10 @@ nav {
   flex-grow: 1;
 }
 .bd_child{
+  flex: 1;
+  padding: 40px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-left: 50px;
-  margin-right: 50px;
 }
